@@ -1,0 +1,194 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    grid-template-rows: 20% 70% 10%;
+}
+.header{
+    background-color: rgb(217, 255, 0);
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+    color: white;
+}
+.marca{
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+.interfaz{
+    list-style-type: none;
+    display: flex;
+    gap: 100px;
+    margin-left: auto; 
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    margin-right: 100px;
+}
+.content{
+    background-color: rgb(0, 4, 255);
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+    color: white;
+}
+.footer{
+    background-color: rgb(255, 0, 191);
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.recetas{
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    grid-template-rows: auto auto auto auto auto auto
+}
+.titulo1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.descripcion1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Poppins', sans-serif;
+}
+.imagen1{
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.titulo2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.descripcion2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Poppins', sans-serif;
+}
+.imagen2{
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.titulo3{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.descripcion3{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Poppins', sans-serif;
+}
+.imagen3{
+    grid-row-start: 3;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.titulo4{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.descripcion4{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Poppins', sans-serif;
+}
+.imagen4{
+    grid-row-start: 4;
+    grid-row-end: 4;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.titulo5{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.descripcion5{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Poppins', sans-serif;
+}
+.imagen5{
+    grid-row-start: 5;
+    grid-row-end: 5;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.titulo6{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.descripcion6{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    font-family: 'Poppins', sans-serif;
+}
+.imagen6{
+    grid-row-start: 6;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+
+
